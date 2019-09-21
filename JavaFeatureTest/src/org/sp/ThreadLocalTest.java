@@ -6,6 +6,10 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
+/**
+ * author sp
+ * 20190921
+ */
 public class ThreadLocalTest {
     private static ThreadLocal<String> TlNames= new ThreadLocal<String>();
     public static void main(String[] args){
