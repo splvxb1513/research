@@ -7,6 +7,10 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * athor
+ *
+ */
 public class ParallelStreamTest {
     private static ThreadLocal<String> TlNames= new ThreadLocal<String>();
     private static ThreadPoolExecutor executors = new ThreadPoolExecutor(40, 40,
