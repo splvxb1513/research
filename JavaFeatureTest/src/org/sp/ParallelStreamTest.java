@@ -8,8 +8,8 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * author sp
- * 20190921
+ * athor
+ *
  */
 public class ParallelStreamTest {
     private static ThreadLocal<String> TlNames= new ThreadLocal<String>();
