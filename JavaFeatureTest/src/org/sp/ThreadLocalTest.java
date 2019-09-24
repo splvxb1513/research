@@ -9,6 +9,7 @@ import java.util.logging.Logger;
 /**
  * author sp
  * 20190921
+ * this is a test class!
  */
 public class ThreadLocalTest {
     private static ThreadLocal<String> TlNames= new ThreadLocal<String>();
