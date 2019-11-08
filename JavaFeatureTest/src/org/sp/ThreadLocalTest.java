@@ -17,7 +17,7 @@ public class ThreadLocalTest {
                 60L, TimeUnit.SECONDS,
                 new SynchronousQueue<Runnable>());
         for (int i=0;i<10;i++) {
-            //增加注释
+            //增加注释1
             //master分支
             executor.submit(() -> {
                 TlNames.set("" + Thread.currentThread().getName());
