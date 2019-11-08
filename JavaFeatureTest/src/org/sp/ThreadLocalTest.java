@@ -18,7 +18,6 @@ public class ThreadLocalTest {
                 new SynchronousQueue<Runnable>());
         for (int i=0;i<10;i++) {
             //增加注释23
-            //增加注释1
             executor.submit(() -> {
                 TlNames.set("" + Thread.currentThread().getName());
                 System.out.println("GetName:" + TlNames.get());
